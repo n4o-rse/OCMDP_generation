@@ -4,109 +4,109 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
-<https://www.w3id.org/objectcore/terminology/terms/B51DAF> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/K343FVL> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+<https://n4o-rse.github.io/OCMDP/terminology/B51DAF> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/K343FVL> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "B51DAF" ;
     skos:prefLabel "Verpflichtungsgrad"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/B5DD1A> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/K343FVL> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+<https://n4o-rse.github.io/OCMDP/terminology/B5DD1A> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/K343FVL> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "B5DD1A" ;
     skos:prefLabel "Wiederholbar"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/B5DD1C> a skos:Concept ;
+<https://n4o-rse.github.io/OCMDP/terminology/B5DD1C> a skos:Concept ;
     doc:TextOrUri "String" ;
     doc:Verpflichtungsgrad "Pflicht" ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/F7D3DC> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/F7D3DC> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "B5DD1C" ;
     skos:prefLabel "Identifier"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/F2A45F> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/F9GB13> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+<https://n4o-rse.github.io/OCMDP/terminology/F2A45F> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/F9GB13> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "F2A45F" ;
     skos:prefLabel "String"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/F3G8D1> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/CD3341> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+<https://n4o-rse.github.io/OCMDP/terminology/F3G8D1> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/CD3341> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "F3G8D1" ;
     skos:prefLabel "URL"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/F7D3DA> a skos:Concept ;
+<https://n4o-rse.github.io/OCMDP/terminology/F7D3DA> a skos:Concept ;
     doc:TextOrUri "String" ;
     doc:Verpflichtungsgrad "Pflicht" ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/F7D3DC> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/F7D3DC> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "F7D3DA" ;
     skos:prefLabel "Label"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/G76A78> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/CD3341> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+<https://n4o-rse.github.io/OCMDP/terminology/G76A78> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/CD3341> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "G76A78" ;
     skos:prefLabel "Terminology Term"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/K343FVA> a skos:Concept ;
+<https://n4o-rse.github.io/OCMDP/terminology/K343FVA> a skos:Concept ;
     doc:TextOrUri "String" ;
     doc:Verpflichtungsgrad "Pflicht" ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/F7D3DC> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/F7D3DC> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "K343FVA" ;
     skos:prefLabel "Description"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/K343FVC> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/K343FVL> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
+<https://n4o-rse.github.io/OCMDP/terminology/K343FVC> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/K343FVL> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
     skos:notation "K343FVC" ;
     skos:prefLabel "Empfohlene Terminologien"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/F9GB13> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/F7D3DB> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/terms/F2A45F> ;
+<https://n4o-rse.github.io/OCMDP/terminology/F9GB13> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/F7D3DB> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
+    skos:narrower <https://n4o-rse.github.io/OCMDP/terminology/F2A45F> ;
     skos:notation "F9GB13" ;
     skos:prefLabel "Literal"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/CD3341> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/F7D3DB> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/terms/F3G8D1>,
-        <https://www.w3id.org/objectcore/terminology/terms/G76A78> ;
+<https://n4o-rse.github.io/OCMDP/terminology/CD3341> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/F7D3DB> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
+    skos:narrower <https://n4o-rse.github.io/OCMDP/terminology/F3G8D1>,
+        <https://n4o-rse.github.io/OCMDP/terminology/G76A78> ;
     skos:notation "CD3341" ;
     skos:prefLabel "Resource"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/F7D3DB> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/terms/K343FVL> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/terms/CD3341>,
-        <https://www.w3id.org/objectcore/terminology/terms/F9GB13> ;
+<https://n4o-rse.github.io/OCMDP/terminology/F7D3DB> a skos:Concept ;
+    skos:broader <https://n4o-rse.github.io/OCMDP/terminology/K343FVL> ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
+    skos:narrower <https://n4o-rse.github.io/OCMDP/terminology/CD3341>,
+        <https://n4o-rse.github.io/OCMDP/terminology/F9GB13> ;
     skos:notation "F7D3DB" ;
     skos:prefLabel "Datentyp"@de .
 
-<https://www.w3id.org/objectcore/terminology/terms/F7D3DC> a skos:Concept ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/terms/B5DD1C>,
-        <https://www.w3id.org/objectcore/terminology/terms/F7D3DA>,
-        <https://www.w3id.org/objectcore/terminology/terms/K343FVA> ;
+<https://n4o-rse.github.io/OCMDP/terminology/F7D3DC> a skos:Concept ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
+    skos:narrower <https://n4o-rse.github.io/OCMDP/terminology/B5DD1C>,
+        <https://n4o-rse.github.io/OCMDP/terminology/F7D3DA>,
+        <https://n4o-rse.github.io/OCMDP/terminology/K343FVA> ;
     skos:notation "F7D3DC" ;
     skos:prefLabel "Terms"@de ;
-    skos:topConceptOf <https://www.w3id.org/objectcore/terminology/terms> .
+    skos:topConceptOf <https://n4o-rse.github.io/OCMDP/terminology> .
 
-<https://www.w3id.org/objectcore/terminology/terms/K343FVL> a skos:Concept ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology/terms> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/terms/B51DAF>,
-        <https://www.w3id.org/objectcore/terminology/terms/B5DD1A>,
-        <https://www.w3id.org/objectcore/terminology/terms/F7D3DB>,
-        <https://www.w3id.org/objectcore/terminology/terms/K343FVC> ;
+<https://n4o-rse.github.io/OCMDP/terminology/K343FVL> a skos:Concept ;
+    skos:inScheme <https://n4o-rse.github.io/OCMDP/terminology> ;
+    skos:narrower <https://n4o-rse.github.io/OCMDP/terminology/B51DAF>,
+        <https://n4o-rse.github.io/OCMDP/terminology/B5DD1A>,
+        <https://n4o-rse.github.io/OCMDP/terminology/F7D3DB>,
+        <https://n4o-rse.github.io/OCMDP/terminology/K343FVC> ;
     skos:notation "K343FVL" ;
     skos:prefLabel "Dictionary"@de ;
-    skos:topConceptOf <https://www.w3id.org/objectcore/terminology/terms> .
+    skos:topConceptOf <https://n4o-rse.github.io/OCMDP/terminology> .
 
-<https://www.w3id.org/objectcore/terminology/terms> a skos:ConceptScheme ;
+<https://n4o-rse.github.io/OCMDP/terminology> a skos:ConceptScheme ;
     dc:creator "TWG OCMDP/MaCHO" ;
     dc:description "Termininology of the OCMDP"@de ;
     dc:title "Object Core Metadata Profile"@de ;
@@ -118,7 +118,7 @@
     dcterms:subject "Meta-Meta-Metadata"@de,
         "Meta-Metadata"@de,
         "Metadata"@de ;
-    vann:preferredNamespaceUri "https://www.w3id.org/objectcore/terminology/terms/" ;
-    skos:hasTopConcept <https://www.w3id.org/objectcore/terminology/terms/F7D3DC>,
-        <https://www.w3id.org/objectcore/terminology/terms/K343FVL> .
+    vann:preferredNamespaceUri "https://n4o-rse.github.io/OCMDP/terminology/" ;
+    skos:hasTopConcept <https://n4o-rse.github.io/OCMDP/terminology/F7D3DC>,
+        <https://n4o-rse.github.io/OCMDP/terminology/K343FVL> .
 
