@@ -1,0 +1,15 @@
+notation,prefLabel,altLabel,definition,broader,note (source),Verpflichtungsgrad,Feldwert,Wiederholbar,Empfohlene Vokabulare,exactMatch todo!
+B51DAF,Verpflichtungsgrad,,,K343FVL,,,,,,
+B5DD1A,Wiederholbar,,,K343FVL,,,,,,
+F7D3DB,Datentyp,,,K343FVL,,,,,,
+K343FVC,Empfohlene Terminologien,,,K343FVL,,,,,,
+K343FVL,Dictionary,,,top,,,,,,
+F7D3DC,Terms,,,top,,,,,,
+B5DD1C,Identifier,,,F7D3DC,,Pflicht,String,,,
+F7D3DA,Label,,,F7D3DC,,Pflicht,String,,,
+K343FVA,Description,,,F7D3DC,,Pflicht,String,,,
+F9GB13,Literal,,,F7D3DB,,,,,,rdfs:Literal
+CD3341,Resource,,,F7D3DB,,,,,,rdfs:Resource
+F2A45F,String,,,F9GB13,,,,,,xsd:String
+F3G8D1,URL,,,CD3341,,,,,,
+G76A78,Terminology Term,,,CD3341,,,,,,
