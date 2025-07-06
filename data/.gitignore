@@ -1,4 +1,4 @@
 # Ignore everything in this directory
-*
+# * # shared ttl files to enable collaborative development
 # Except this file
 !.gitignore
