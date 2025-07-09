@@ -4,107 +4,545 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
-<https://www.w3id.org/objectcore/terminology/B51DAF> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/K343FVL> ;
+<https://www.w3id.org/objectcore/terminology/AUI6OG> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/TWRCK6> ;
+    skos:definition "his class comprises physical features that are purposely created by human activity, such as scratches, artificial caves, artificial water channels, etc."@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "B51DAF" ;
-    skos:prefLabel "Verpflichtungsgrad"@de .
+    skos:notation "AUI6OG" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E25 Human Made Feature"@de .
 
-<https://www.w3id.org/objectcore/terminology/B5DD1A> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/K343FVL> ;
+<https://www.w3id.org/objectcore/terminology/AVVZYP> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "dcat:Resource represents a dataset, a data service or any other resource that may be described by a metadata record in a catalog."@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "B5DD1A" ;
+    skos:notation "AVVZYP" ;
+    skos:note "DCACT v3"@de ;
+    skos:prefLabel "Resource (DCAT)"@de .
+
+<https://www.w3id.org/objectcore/terminology/BMANTK> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/XNDA95> ;
+    skos:definition "This class comprises events that result in the creation of instances of D9 Data Object that represent the appearance and/or form of an instance of E18 Physical Thing such as paper documents, statues, buildings, paintings, etc."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "BMANTK" ;
+    skos:note "CRMdig v3.2.1"@de ;
+    skos:prefLabel "D2 Digitization Process"@de .
+
+<https://www.w3id.org/objectcore/terminology/BZ1YP5> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "dcat:DataService represents a collection of operations accessible through an interface (API) that provide access to one or more datasets or data processing functions."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "BZ1YP5" ;
+    skos:note "DCACT v3"@de ;
+    skos:prefLabel "DataService (DCAT)"@de .
+
+<https://www.w3id.org/objectcore/terminology/DC3SN2> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/TQKQBM> ;
+    skos:definition "[data type] boolean (true/false)"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "DC3SN2" ;
+    skos:note "XMLSchema v1.5"@de ;
+    skos:prefLabel "boolean"@de .
+
+<https://www.w3id.org/objectcore/terminology/E9RPOU> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/XNDA95> ;
+    skos:definition "This class comprises events that happen on physical digital devices following a human activity that intentionally caused its immediate or delayed initiation and results in the creation of a new instance of D1 Digital Object on behalf of the human actor."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "E9RPOU" ;
+    skos:note "CRMdig v3.2.1"@de ;
+    skos:prefLabel "D10 Software Execution"@de .
+
+<https://www.w3id.org/objectcore/terminology/EO7QK9> a skos:Concept ;
+    doc:TextOrUri "DC3SN2" ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
+    skos:definition "Boolean term do describe if sth. is repeatable"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "EO7QK9" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Wiederholbar"@de .
 
-<https://www.w3id.org/objectcore/terminology/B5DD1C> a skos:Concept ;
-    doc:TextOrUri "String" ;
-    doc:Verpflichtungsgrad "Pflicht" ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/F7D3DC> ;
+<https://www.w3id.org/objectcore/terminology/FFYJTZ> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "This class comprises extents in the natural space where people live, in particular on the surface of the Earth, in the pure sense of physics: independent from temporal phenomena and matter. They may serve describing the physical location of things or phenomena or other areas of interest."@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "B5DD1C" ;
-    skos:prefLabel "Identifier"@de .
+    skos:notation "FFYJTZ" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E53 Place"@de .
 
-<https://www.w3id.org/objectcore/terminology/F2A45F> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/F9GB13> ;
+<https://www.w3id.org/objectcore/terminology/G338GB> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JYGNTK> ;
+    skos:definition "[degree of commitment] it is mendatory"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "F2A45F" ;
-    skos:prefLabel "String"@de .
+    skos:notation "G338GB" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Pflicht"@de .
 
-<https://www.w3id.org/objectcore/terminology/F3G8D1> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/CD3341> ;
+<https://www.w3id.org/objectcore/terminology/H1RGOM> a skos:Concept ;
+    doc:TextOrUri "XE70Z8" ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
+    skos:definition "Property to recommend terminologies"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "F3G8D1" ;
-    skos:prefLabel "URL"@de .
-
-<https://www.w3id.org/objectcore/terminology/F7D3DA> a skos:Concept ;
-    doc:TextOrUri "String" ;
-    doc:Verpflichtungsgrad "Pflicht" ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/F7D3DC> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "F7D3DA" ;
-    skos:prefLabel "Label"@de .
-
-<https://www.w3id.org/objectcore/terminology/G76A78> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/CD3341> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "G76A78" ;
-    skos:prefLabel "Terminology Term"@de .
-
-<https://www.w3id.org/objectcore/terminology/K343FVA> a skos:Concept ;
-    doc:TextOrUri "String" ;
-    doc:Verpflichtungsgrad "Pflicht" ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/F7D3DC> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "K343FVA" ;
-    skos:prefLabel "Description"@de .
-
-<https://www.w3id.org/objectcore/terminology/K343FVC> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/K343FVL> ;
-    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:notation "K343FVC" ;
+    skos:notation "H1RGOM" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Empfohlene Terminologien"@de .
 
-<https://www.w3id.org/objectcore/terminology/F9GB13> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/F7D3DB> ;
+<https://www.w3id.org/objectcore/terminology/H5KD3F> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "dcat:Dataset represents a collection of data, published or curated by a single agent or identifiable community"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/F2A45F> ;
-    skos:notation "F9GB13" ;
+    skos:notation "H5KD3F" ;
+    skos:note "DCACT v3"@de ;
+    skos:prefLabel "Dataset (DCAT)"@de .
+
+<https://www.w3id.org/objectcore/terminology/I3XGIB> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/L2QGNY> ;
+    skos:definition "[data type] numeric (literal)"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "I3XGIB" ;
+    skos:note "XMLSchema v1.5"@de ;
+    skos:prefLabel "Decimal"@de .
+
+<https://www.w3id.org/objectcore/terminology/IAUKDD> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/E54Q7Z> ;
+    skos:definition "This class comprises all signs, either meaningful or not, or arrangements of signs following a specific syntax, that are used or can be used to refer to and identify a specific instance of some class within a certain context."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "IAUKDD" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E41 Appellation"@de .
+
+<https://www.w3id.org/objectcore/terminology/JM0BW3> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JYGNTK> ;
+    skos:definition "[degree of commitment] it is recommened if available but not mendatory"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "JM0BW3" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Optional"@de .
+
+<https://www.w3id.org/objectcore/terminology/KDAWCF> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/NCWZ6Q> ;
+    skos:definition "This class comprises events that happen on physical digital devices following a human activity that intentionally caused its immediate or delayed initiation and results in the creation of a new instance of D1 Digital Object on behalf of the human actor."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "KDAWCF" ;
+    skos:note "CRMdig v3.2.1"@de ;
+    skos:prefLabel "D9 Data Object"@de .
+
+<https://www.w3id.org/objectcore/terminology/KL9LCA> a skos:Concept ;
+    doc:TextOrUri "DC3SN2" ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
+    skos:definition "Property to indicate that there cam be something uncertain"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "KL9LCA" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Unsicherheit"@de .
+
+<https://www.w3id.org/objectcore/terminology/KN2AVX> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/C3T57V> ;
+    skos:definition "Minimaldatensatz-Empfehlung für Museen und Sammlungen"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "KN2AVX" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Minimaldatensatz-Empfehlung für Museen und Sammlungen"@de .
+
+<https://www.w3id.org/objectcore/terminology/KP15EJ> a skos:Concept ;
+    doc:TextOrUri "PI4F4S" ;
+    doc:Verpflichtungsgrad "G338GB" ;
+    doc:Wiederholbar "ja" ;
+    skos:altLabel "Beschreibung"@de ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/RHY8N1> ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "KP15EJ" ;
+    skos:prefLabel "Description"@de .
+
+<https://www.w3id.org/objectcore/terminology/KX62YX> a skos:Concept ;
+    doc:TextOrUri "PI4F4S" ;
+    doc:Verpflichtungsgrad "G338GB" ;
+    doc:Wiederholbar "nein" ;
+    skos:altLabel "Identifikator"@de ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/RHY8N1> ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "KX62YX" ;
+    skos:prefLabel "Identifier"@de .
+
+<https://www.w3id.org/objectcore/terminology/KXB3YB> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/XNDA95> ;
+    skos:definition "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "KXB3YB" ;
+    skos:note "W3C Recommendation 30 Apr 2013"@de ;
+    skos:prefLabel "Activity (PROV)"@de .
+
+<https://www.w3id.org/objectcore/terminology/KYF46O> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/C3T57V> ;
+    skos:definition "Archäologische Aktivitäten (ARA)"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "KYF46O" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Archäologische Aktivitäten (ARA)"@de .
+
+<https://www.w3id.org/objectcore/terminology/LFWRP6> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/C3T57V> ;
+    skos:definition "Metadatenvokabular Konservierung/Restaurierung"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "LFWRP6" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Metadatenvokabular Konservierung/Restaurierung"@de .
+
+<https://www.w3id.org/objectcore/terminology/LW2J1W> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/VT14KK> ;
+    skos:definition "This class comprises all instances of E22 Man-Made Object that are explicitly designed to act as persistent physical carriers for instances of E73 Information Object."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "LW2J1W" ;
+    skos:note "CIDOC-CRM v6.2.1"@de ;
+    skos:prefLabel "E84 Information Carrier"@de .
+
+<https://www.w3id.org/objectcore/terminology/M3NSIV> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "This class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which they can be held responsible."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "M3NSIV" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E39 Actor"@de .
+
+<https://www.w3id.org/objectcore/terminology/M3UTNZ> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/XNDA95> ;
+    skos:definition "This class comprises events that happen on physical digital devices following a human activity that intentionally caused its immediate or delayed initiation and results in the creation of a new instance of D1 Digital Object on behalf of the human actor."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "M3UTNZ" ;
+    skos:note "CRMdig v3.2.1"@de ;
+    skos:prefLabel "E7 Digital Machine Event"@de .
+
+<https://www.w3id.org/objectcore/terminology/ME5OCY> a skos:Concept ;
+    doc:TextOrUri "TW6U6T" ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/XE70Z8> ;
+    skos:definition "[data type] anything serving as terminology term (resource)"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "ME5OCY" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Terminology Term"@de .
+
+<https://www.w3id.org/objectcore/terminology/O8UZ2A> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "O8UZ2A" ;
+    skos:note "W3C Recommendation 30 Apr 2013"@de ;
+    skos:prefLabel "Entity (PROV)"@de .
+
+<https://www.w3id.org/objectcore/terminology/OK66T3> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/VQZ4BM> ;
+    skos:definition "This class comprises all instances of E84 Information Carrier that are explicitly designed to be used as persistent digital physical carriers of instances of D1 Digital Object. A D13 Digital Information Carrier may or may not contain information, e.g., an empty diskette."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "OK66T3" ;
+    skos:note "CRMdig v3.2.1"@de ;
+    skos:prefLabel "D13 Digital Information Carrier"@de .
+
+<https://www.w3id.org/objectcore/terminology/PD7I1U> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/FA2GRP> ;
+    skos:definition "A SKOS concept can be viewed as an idea or notion; a unit of thought. However, what constitutes a unit of thought is subjective, and this definition is meant to be suggestive, rather than restrictive."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "PD7I1U" ;
+    skos:note "W3C Recommendation 18 Aug 2009"@de ;
+    skos:prefLabel "Concept (SKOS)"@de .
+
+<https://www.w3id.org/objectcore/terminology/PI4F4S> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/L2QGNY> ;
+    skos:definition "[data type] string (literal)"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "PI4F4S" ;
+    skos:note "XMLSchema v1.5"@de ;
+    skos:prefLabel "String"@de .
+
+<https://www.w3id.org/objectcore/terminology/PK5RI8> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/KAQF00> ;
+    skos:definition "This class comprises individual items of a material nature, which live, have lived, or are natural products of or from living organisms."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "PK5RI8" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E20 Biologial Object"@de .
+
+<https://www.w3id.org/objectcore/terminology/T4WUQ4> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/FA2GRP> ;
+    skos:definition "This class is a specialization of E55 Type and comprises the concepts of materials."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "T4WUQ4" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E57 Material"@de .
+
+<https://www.w3id.org/objectcore/terminology/TW6U6T> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/XE70Z8> ;
+    skos:definition "[data type] anything having a URL (resource)"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "TW6U6T" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "URL"@de .
+
+<https://www.w3id.org/objectcore/terminology/UD7DTU> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "UD7DTU" ;
+    skos:note "W3C Recommendation 30 Apr 2013"@de ;
+    skos:prefLabel "Agent (PROV)"@de .
+
+<https://www.w3id.org/objectcore/terminology/UK7HFD> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/G7Q645> ;
+    skos:definition "SKOS concept scheme can be viewed as an aggregation of one or more SKOS concepts. Semantic relationships (links) between those concepts may also be viewed as part of a concept scheme."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "UK7HFD" ;
+    skos:note "W3C Recommendation 18 Aug 2009"@de ;
+    skos:prefLabel "Concept Scheme (SKOS)"@de .
+
+<https://www.w3id.org/objectcore/terminology/W0PDK4> a skos:Concept ;
+    doc:TextOrUri "PI4F4S" ;
+    doc:Verpflichtungsgrad "G338GB" ;
+    doc:Wiederholbar "ja" ;
+    skos:altLabel "Bezeichnung"@de ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/RHY8N1> ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "W0PDK4" ;
+    skos:prefLabel "Label"@de .
+
+<https://www.w3id.org/objectcore/terminology/XZYN2X> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JYGNTK> ;
+    skos:definition "[degree of commitment] it is recommened if available"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "XZYN2X" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Empfehlung"@de .
+
+<https://www.w3id.org/objectcore/terminology/Y12LLC> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/EEC3OY> ;
+    skos:definition "This class comprises software codes, computer programs, procedures and functions that are used to operate a system of digital objects."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:notation "Y12LLC" ;
+    skos:note "CRMdig v3.2.1"@de ;
+    skos:prefLabel "D14 Software"@de .
+
+<https://www.w3id.org/objectcore/terminology/EEC3OY> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/NCWZ6Q> ;
+    skos:definition "This class comprises identifiable immaterial items that can be represented as sets of bit sequences, such as data sets, e-texts, images, audio or video items, software, etc., and are documented as single units."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/Y12LLC> ;
+    skos:notation "EEC3OY" ;
+    skos:note "CRMdig v3.2.1"@de ;
+    skos:prefLabel "D1 Digital Object"@de .
+
+<https://www.w3id.org/objectcore/terminology/G7Q645> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "dcat:Catalog represents a catalog, which is a dataset in which each individual item is a metadata record describing some resource; the scope of dcat:Catalog is collections of metadata about datasets, data services, or other resource types."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/UK7HFD> ;
+    skos:notation "G7Q645" ;
+    skos:note "DCACT v3"@de ;
+    skos:prefLabel "Catalog (DACT)"@de .
+
+<https://www.w3id.org/objectcore/terminology/KAQF00> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/VQZ4BM> ;
+    skos:definition "This class comprises items of a material nature that are units for documentation and have physical boundaries that separate them completely in an objective way from other objects."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/PK5RI8> ;
+    skos:notation "KAQF00" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E19 Physical Object"@de .
+
+<https://www.w3id.org/objectcore/terminology/RKNT00> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "This class comprises all phenomena, such as the instances of E4 Periods and E5 Events, which happen over a limited extent in time. This extent in time must be contiguous, i.e., without gaps."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/XNDA95> ;
+    skos:notation "RKNT00" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E2 Temporal Entity"@de .
+
+<https://www.w3id.org/objectcore/terminology/T06G7I> a skos:Concept ;
+    skos:definition "Classes to interlink with the Research Data Knowledge Graph and CIDOC-CRM"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:notation "T06G7I" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Entities"@de ;
+    skos:topConceptOf <https://www.w3id.org/objectcore/terminology> .
+
+<https://www.w3id.org/objectcore/terminology/VT14KK> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/TWRCK6> ;
+    skos:definition "This class comprises all persistent physical objects of any size that are purposely created by human activity and have physical boundaries that separate them completely in an objective way from other objects."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/LW2J1W> ;
+    skos:notation "VT14KK" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E22 Human Made Object"@de .
+
+<https://www.w3id.org/objectcore/terminology/FA2GRP> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/E54Q7Z> ;
+    skos:definition "This class comprises concepts denoted by terms from thesauri and controlled vocabularies used to characterize and classify instances of CIDOC CRM classes."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/PD7I1U>,
+        <https://www.w3id.org/objectcore/terminology/T4WUQ4> ;
+    skos:notation "FA2GRP" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E55 Type"@de .
+
+<https://www.w3id.org/objectcore/terminology/L2QGNY> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/TQKQBM> ;
+    skos:definition "[data type] any literal, textual or numeric"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/I3XGIB>,
+        <https://www.w3id.org/objectcore/terminology/PI4F4S> ;
+    skos:notation "L2QGNY" ;
+    skos:note "RDF Schema 1.1"@de ;
     skos:prefLabel "Literal"@de .
 
-<https://www.w3id.org/objectcore/terminology/CD3341> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/F7D3DB> ;
+<https://www.w3id.org/objectcore/terminology/NCWZ6Q> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/PKXD5U> ;
+    skos:definition "This class comprises identifiable immaterial items, such as poems, jokes, data sets, images, texts, multimedia objects, procedural prescriptions, computer program code, algorithm or mathematical formulae, that have an objectively recognizable structure and are documented as single units."@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/F3G8D1>,
-        <https://www.w3id.org/objectcore/terminology/G76A78> ;
-    skos:notation "CD3341" ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/EEC3OY>,
+        <https://www.w3id.org/objectcore/terminology/KDAWCF> ;
+    skos:notation "NCWZ6Q" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E73 Information Object"@de .
+
+<https://www.w3id.org/objectcore/terminology/TWRCK6> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/E54Q7Z> ;
+    skos:definition "This class comprises all persistent physical items of any size that are purposely created by human activity."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/AUI6OG>,
+        <https://www.w3id.org/objectcore/terminology/VT14KK> ;
+    skos:notation "TWRCK6" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E24 Physical Human Made Thing"@de .
+
+<https://www.w3id.org/objectcore/terminology/VQZ4BM> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/PKXD5U> ;
+    skos:definition "This class comprises all persistent physical items with a relatively stable form, human-made or natural."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/KAQF00>,
+        <https://www.w3id.org/objectcore/terminology/OK66T3> ;
+    skos:notation "VQZ4BM" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E18 Physical Thing"@de .
+
+<https://www.w3id.org/objectcore/terminology/XE70Z8> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/TQKQBM> ;
+    skos:definition "[data type] any digital resource, e.g. URL"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/ME5OCY>,
+        <https://www.w3id.org/objectcore/terminology/TW6U6T> ;
+    skos:notation "XE70Z8" ;
+    skos:note "RDF Schema 1.1"@de ;
     skos:prefLabel "Resource"@de .
 
-<https://www.w3id.org/objectcore/terminology/F7D3DB> a skos:Concept ;
-    skos:broader <https://www.w3id.org/objectcore/terminology/K343FVL> ;
+<https://www.w3id.org/objectcore/terminology/C3T57V> a skos:Concept ;
+    skos:definition "Sub-Sets of the Object Core Metadata Profile"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/CD3341>,
-        <https://www.w3id.org/objectcore/terminology/F9GB13> ;
-    skos:notation "F7D3DB" ;
-    skos:prefLabel "Datentyp"@de .
+    skos:narrower <https://www.w3id.org/objectcore/terminology/KN2AVX>,
+        <https://www.w3id.org/objectcore/terminology/KYF46O>,
+        <https://www.w3id.org/objectcore/terminology/LFWRP6> ;
+    skos:notation "C3T57V" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Category"@de ;
+    skos:topConceptOf <https://www.w3id.org/objectcore/terminology> .
 
-<https://www.w3id.org/objectcore/terminology/F7D3DC> a skos:Concept ;
+<https://www.w3id.org/objectcore/terminology/E54Q7Z> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/PKXD5U> ;
+    skos:definition "This class comprises discrete, identifiable human-made items that are documented as single units."@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/B5DD1C>,
-        <https://www.w3id.org/objectcore/terminology/F7D3DA>,
-        <https://www.w3id.org/objectcore/terminology/K343FVA> ;
-    skos:notation "F7D3DC" ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/FA2GRP>,
+        <https://www.w3id.org/objectcore/terminology/IAUKDD>,
+        <https://www.w3id.org/objectcore/terminology/TWRCK6> ;
+    skos:notation "E54Q7Z" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E71 Human Made Thing"@de .
+
+<https://www.w3id.org/objectcore/terminology/JYGNTK> a skos:Concept ;
+    doc:TextOrUri "G338GB",
+        "JM0BW3",
+        "XZYN2X" ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
+    skos:definition "Umbrella term to define the degree of commitment"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/G338GB>,
+        <https://www.w3id.org/objectcore/terminology/JM0BW3>,
+        <https://www.w3id.org/objectcore/terminology/XZYN2X> ;
+    skos:notation "JYGNTK" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Verpflichtungsgrad"@de .
+
+<https://www.w3id.org/objectcore/terminology/PKXD5U> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
+    skos:definition "This general class comprises discrete, identifiable, instances of E77 Persistent Item that are documented as single units, that either consist of matter or depend on being carried by matter and are characterized by relative stability."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/E54Q7Z>,
+        <https://www.w3id.org/objectcore/terminology/NCWZ6Q>,
+        <https://www.w3id.org/objectcore/terminology/VQZ4BM> ;
+    skos:notation "PKXD5U" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E70 Thing"@de .
+
+<https://www.w3id.org/objectcore/terminology/RHY8N1> a skos:Concept ;
+    skos:definition "Properties to describe the Object Core Metadata Profile"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/KP15EJ>,
+        <https://www.w3id.org/objectcore/terminology/KX62YX>,
+        <https://www.w3id.org/objectcore/terminology/W0PDK4> ;
+    skos:notation "RHY8N1" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Terms"@de ;
     skos:topConceptOf <https://www.w3id.org/objectcore/terminology> .
 
-<https://www.w3id.org/objectcore/terminology/K343FVL> a skos:Concept ;
+<https://www.w3id.org/objectcore/terminology/TQKQBM> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
+    skos:definition "Umbrella term to define data types"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
-    skos:narrower <https://www.w3id.org/objectcore/terminology/B51DAF>,
-        <https://www.w3id.org/objectcore/terminology/B5DD1A>,
-        <https://www.w3id.org/objectcore/terminology/F7D3DB>,
-        <https://www.w3id.org/objectcore/terminology/K343FVC> ;
-    skos:notation "K343FVL" ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/DC3SN2>,
+        <https://www.w3id.org/objectcore/terminology/L2QGNY>,
+        <https://www.w3id.org/objectcore/terminology/XE70Z8> ;
+    skos:notation "TQKQBM" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
+    skos:prefLabel "Datentyp"@de .
+
+<https://www.w3id.org/objectcore/terminology/XNDA95> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/RKNT00> ;
+    skos:definition "This class comprises distinct, delimited and coherent processes and interactions of a material nature, in cultural, social or physical systems, involving and affecting instances of E77 Persistent Item in a way characteristic of the kind of process."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/BMANTK>,
+        <https://www.w3id.org/objectcore/terminology/E9RPOU>,
+        <https://www.w3id.org/objectcore/terminology/KXB3YB>,
+        <https://www.w3id.org/objectcore/terminology/M3UTNZ> ;
+    skos:notation "XNDA95" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E5 Event"@de .
+
+<https://www.w3id.org/objectcore/terminology/JY9HHS> a skos:Concept ;
+    skos:definition "Terms to set profile specific attributes"@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/EO7QK9>,
+        <https://www.w3id.org/objectcore/terminology/H1RGOM>,
+        <https://www.w3id.org/objectcore/terminology/JYGNTK>,
+        <https://www.w3id.org/objectcore/terminology/KL9LCA>,
+        <https://www.w3id.org/objectcore/terminology/TQKQBM> ;
+    skos:notation "JY9HHS" ;
+    skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Dictionary"@de ;
     skos:topConceptOf <https://www.w3id.org/objectcore/terminology> .
+
+<https://www.w3id.org/objectcore/terminology/DGSLS7> a skos:Concept ;
+    skos:broader <https://www.w3id.org/objectcore/terminology/T06G7I> ;
+    skos:definition "This class comprises all things in the universe of discourse of the CIDOC Conceptual Reference Model."@de ;
+    skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
+    skos:narrower <https://www.w3id.org/objectcore/terminology/AVVZYP>,
+        <https://www.w3id.org/objectcore/terminology/BZ1YP5>,
+        <https://www.w3id.org/objectcore/terminology/FFYJTZ>,
+        <https://www.w3id.org/objectcore/terminology/G7Q645>,
+        <https://www.w3id.org/objectcore/terminology/H5KD3F>,
+        <https://www.w3id.org/objectcore/terminology/M3NSIV>,
+        <https://www.w3id.org/objectcore/terminology/O8UZ2A>,
+        <https://www.w3id.org/objectcore/terminology/PKXD5U>,
+        <https://www.w3id.org/objectcore/terminology/RKNT00>,
+        <https://www.w3id.org/objectcore/terminology/UD7DTU> ;
+    skos:notation "DGSLS7" ;
+    skos:note "CIDOC-CRM v7.1.3"@de ;
+    skos:prefLabel "E1 Entity"@de .
 
 <https://www.w3id.org/objectcore/terminology> a skos:ConceptScheme ;
     dc:creator "TWG OCMDP/MaCHO" ;
@@ -119,6 +557,8 @@
         "Meta-Metadata"@de,
         "Metadata"@de ;
     vann:preferredNamespaceUri "https://www.w3id.org/objectcore/terminology/" ;
-    skos:hasTopConcept <https://www.w3id.org/objectcore/terminology/F7D3DC>,
-        <https://www.w3id.org/objectcore/terminology/K343FVL> .
+    skos:hasTopConcept <https://www.w3id.org/objectcore/terminology/C3T57V>,
+        <https://www.w3id.org/objectcore/terminology/JY9HHS>,
+        <https://www.w3id.org/objectcore/terminology/RHY8N1>,
+        <https://www.w3id.org/objectcore/terminology/T06G7I> .
 
