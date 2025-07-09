@@ -1,6 +1,6 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix doc: <http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#> .
+@prefix ocmdp: <http://www.w3id.org/objectcore/terminology/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 
@@ -53,13 +53,13 @@
     skos:prefLabel "D10 Software Execution"@de .
 
 <https://www.w3id.org/objectcore/terminology/EO7QK9> a skos:Concept ;
-    doc:TextOrUri "DC3SN2" ;
     skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
     skos:definition "Boolean term do describe if sth. is repeatable"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "EO7QK9" ;
     skos:note "NFDI4Objects TWG internal"@de ;
-    skos:prefLabel "Wiederholbar"@de .
+    skos:prefLabel "Wiederholbar"@de ;
+    ocmdp:Datentyp "DC3SN2" .
 
 <https://www.w3id.org/objectcore/terminology/FFYJTZ> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
@@ -78,13 +78,13 @@
     skos:prefLabel "Pflicht"@de .
 
 <https://www.w3id.org/objectcore/terminology/H1RGOM> a skos:Concept ;
-    doc:TextOrUri "XE70Z8" ;
     skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
     skos:definition "Property to recommend terminologies"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "H1RGOM" ;
     skos:note "NFDI4Objects TWG internal"@de ;
-    skos:prefLabel "Empfohlene Terminologien"@de .
+    skos:prefLabel "Empfohlene Terminologien"@de ;
+    ocmdp:Datentyp "XE70Z8" .
 
 <https://www.w3id.org/objectcore/terminology/H5KD3F> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
@@ -127,13 +127,13 @@
     skos:prefLabel "D9 Data Object"@de .
 
 <https://www.w3id.org/objectcore/terminology/KL9LCA> a skos:Concept ;
-    doc:TextOrUri "DC3SN2" ;
     skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
     skos:definition "Property to indicate that there cam be something uncertain"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "KL9LCA" ;
     skos:note "NFDI4Objects TWG internal"@de ;
-    skos:prefLabel "Unsicherheit"@de .
+    skos:prefLabel "Unsicherheit"@de ;
+    ocmdp:Datentyp "DC3SN2" .
 
 <https://www.w3id.org/objectcore/terminology/KN2AVX> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/C3T57V> ;
@@ -144,24 +144,24 @@
     skos:prefLabel "Minimaldatensatz-Empfehlung für Museen und Sammlungen"@de .
 
 <https://www.w3id.org/objectcore/terminology/KP15EJ> a skos:Concept ;
-    doc:TextOrUri "PI4F4S" ;
-    doc:Verpflichtungsgrad "G338GB" ;
-    doc:Wiederholbar "ja" ;
     skos:altLabel "Beschreibung"@de ;
     skos:broader <https://www.w3id.org/objectcore/terminology/RHY8N1> ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "KP15EJ" ;
-    skos:prefLabel "Description"@de .
+    skos:prefLabel "Description"@de ;
+    ocmdp:Datentyp "PI4F4S" ;
+    ocmdp:Verpflichtungsgrad "G338GB" ;
+    ocmdp:Wiederholbar "ja" .
 
 <https://www.w3id.org/objectcore/terminology/KX62YX> a skos:Concept ;
-    doc:TextOrUri "PI4F4S" ;
-    doc:Verpflichtungsgrad "G338GB" ;
-    doc:Wiederholbar "nein" ;
     skos:altLabel "Identifikator"@de ;
     skos:broader <https://www.w3id.org/objectcore/terminology/RHY8N1> ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "KX62YX" ;
-    skos:prefLabel "Identifier"@de .
+    skos:prefLabel "Identifier"@de ;
+    ocmdp:Datentyp "PI4F4S" ;
+    ocmdp:Verpflichtungsgrad "G338GB" ;
+    ocmdp:Wiederholbar "nein" .
 
 <https://www.w3id.org/objectcore/terminology/KXB3YB> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/XNDA95> ;
@@ -212,13 +212,13 @@
     skos:prefLabel "E7 Digital Machine Event"@de .
 
 <https://www.w3id.org/objectcore/terminology/ME5OCY> a skos:Concept ;
-    doc:TextOrUri "TW6U6T" ;
     skos:broader <https://www.w3id.org/objectcore/terminology/XE70Z8> ;
     skos:definition "[data type] anything serving as terminology term (resource)"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "ME5OCY" ;
     skos:note "NFDI4Objects TWG internal"@de ;
-    skos:prefLabel "Terminology Term"@de .
+    skos:prefLabel "Terminology Term"@de ;
+    ocmdp:Datentyp "TW6U6T" .
 
 <https://www.w3id.org/objectcore/terminology/O8UZ2A> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
@@ -293,14 +293,14 @@
     skos:prefLabel "Concept Scheme (SKOS)"@de .
 
 <https://www.w3id.org/objectcore/terminology/W0PDK4> a skos:Concept ;
-    doc:TextOrUri "PI4F4S" ;
-    doc:Verpflichtungsgrad "G338GB" ;
-    doc:Wiederholbar "ja" ;
     skos:altLabel "Bezeichnung"@de ;
     skos:broader <https://www.w3id.org/objectcore/terminology/RHY8N1> ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "W0PDK4" ;
-    skos:prefLabel "Label"@de .
+    skos:prefLabel "Label"@de ;
+    ocmdp:Datentyp "PI4F4S" ;
+    ocmdp:Verpflichtungsgrad "G338GB" ;
+    ocmdp:Wiederholbar "ja" .
 
 <https://www.w3id.org/objectcore/terminology/XZYN2X> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/JYGNTK> ;
@@ -455,9 +455,6 @@
     skos:prefLabel "E71 Human Made Thing"@de .
 
 <https://www.w3id.org/objectcore/terminology/JYGNTK> a skos:Concept ;
-    doc:TextOrUri "G338GB",
-        "JM0BW3",
-        "XZYN2X" ;
     skos:broader <https://www.w3id.org/objectcore/terminology/JY9HHS> ;
     skos:definition "Umbrella term to define the degree of commitment"@de ;
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
@@ -466,7 +463,10 @@
         <https://www.w3id.org/objectcore/terminology/XZYN2X> ;
     skos:notation "JYGNTK" ;
     skos:note "NFDI4Objects TWG internal"@de ;
-    skos:prefLabel "Verpflichtungsgrad"@de .
+    skos:prefLabel "Verpflichtungsgrad"@de ;
+    ocmdp:Datentyp "G338GB",
+        "JM0BW3",
+        "XZYN2X" .
 
 <https://www.w3id.org/objectcore/terminology/PKXD5U> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;

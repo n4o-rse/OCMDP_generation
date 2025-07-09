@@ -132,7 +132,7 @@ module.exports.allConcept = (inScheme, languages) => `
           isReplacedBy {
             id
           }
-          TextOrUri
+          Datentyp
           Verpflichtungsgrad
           Wiederholbar
           EmpfohleneVokabulare
@@ -217,7 +217,7 @@ module.exports.allConceptScheme = (languages) => `
       ${[...languages].join(" ")}
     }
     deprecated
-    TextOrUri
+    Datentyp
     Verpflichtungsgrad
     Wiederholbar
     EmpfohleneVokabulare

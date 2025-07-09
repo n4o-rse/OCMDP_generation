@@ -79,17 +79,17 @@ def df2Skos(df, baseLanguageLabel, baseUri, seperator):
         ("exactMatch", SKOS.exactMatch, URIRef, False)
     ]
 
-    DOC = Namespace("http://Restaurierungs-und-Konservierungsdaten.org/doc-vocab#")
+    ocmdp = Namespace("http://www.w3id.org/objectcore/terminology/")
 
     extendedTuples = [
         ("source", SKOS.note, Literal, True), #DC.source # False
         #("creator", DC.creator, Literal, False),
         ("seeAlso", RDFS.seeAlso, Literal, False),
-        ("Verpflichtungsgrad", DOC.Verpflichtungsgrad, Literal, False),   # SKOS.scopeNote, Literal, True),
+        ("Verpflichtungsgrad", ocmdp.Verpflichtungsgrad, Literal, False),   # SKOS.scopeNote, Literal, True),
         ("translation", SKOS.altLabel, Literal, True),
-        ("Feldwert", DOC.TextOrUri, Literal, False), #SKOS.editorialNote, Literal, True), 
-        ("Wiederholbar", DOC.Wiederholbar, Literal, False), # SKOS.historyNote, Literal, True),
-        ("Empfohlene Vokabulare", DOC.EmpfohleneVokabulare, Literal, False), # SKOS.changeNote, Literal, True),
+        ("Feldwert", ocmdp.Datentyp, Literal, False), #SKOS.editorialNote, Literal, True), 
+        ("Wiederholbar", ocmdp.Wiederholbar, Literal, False), # SKOS.historyNote, Literal, True),
+        ("Empfohlene Vokabulare", ocmdp.EmpfohleneVokabulare, Literal, False), # SKOS.changeNote, Literal, True),
     ]
 
     g = Graph()
@@ -97,7 +97,7 @@ def df2Skos(df, baseLanguageLabel, baseUri, seperator):
     thesaurusAddendum = URIRef(thesaurus + "/")
 
     # use doc as abbreviation for DOC Namespace
-    g.bind("doc", DOC)
+    g.bind("ocmdp", ocmdp)
 
     g.add ((thesaurus, RDF.type, SKOS.ConceptScheme))
     g.add ((thesaurus, DC.title, Literal("Object Core Metadata Profile", lang=baseLanguageLabel)))

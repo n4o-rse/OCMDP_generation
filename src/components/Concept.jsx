@@ -145,12 +145,12 @@ const Concept = ({
           </Markdown>
         </div>
       )}
-      {concept.TextOrUri && concept.TextOrUri.length > 0 && (
+      {concept.Datentyp && concept.Datentyp.length > 0 && (
         <div>
-          <h3>Text Or Uri</h3>
+          <h3>Datentyp</h3>
           <ul>
-            {concept.TextOrUri.map((textOrUri, i) => (
-              <li key={i}>{textOrUri}</li>
+            {concept.Datentyp.map((Datentyp, i) => (
+              <li key={i}>{Datentyp}</li>
             ))}
           </ul>
         </div>

@@ -46,7 +46,7 @@ module.exports = (languages) => `
     hub: String,
     deprecated: Boolean,
     isReplacedBy: [Concept],
-    TextOrUri: [String],
+    Datentyp: [String],
     Verpflichtungsgrad: [String],
     Wiederholbar: [String],
     EmpfohleneVokabulare: [String]
