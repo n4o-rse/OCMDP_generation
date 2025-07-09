@@ -49,7 +49,7 @@ module.exports = (languages) => `
     Datentyp: [String],
     Verpflichtungsgrad: [String],
     Wiederholbar: [String],
-    EmpfohleneVokabulare: [String]
+    EmpfohleneTerminologien: [String]
   }
 
   type LanguageMap {

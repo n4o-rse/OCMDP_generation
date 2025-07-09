@@ -135,7 +135,7 @@ module.exports.allConcept = (inScheme, languages) => `
           Datentyp
           Verpflichtungsgrad
           Wiederholbar
-          EmpfohleneVokabulare
+          EmpfohleneTerminologien
         }
       }
     }
@@ -220,7 +220,7 @@ module.exports.allConceptScheme = (languages) => `
     Datentyp
     Verpflichtungsgrad
     Wiederholbar
-    EmpfohleneVokabulare
+    EmpfohleneTerminologien
   }
 `
 module.exports.tokenizer = `{

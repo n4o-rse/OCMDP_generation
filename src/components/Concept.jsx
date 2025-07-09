@@ -175,13 +175,13 @@ const Concept = ({
           </ul>
         </div>
       )}
-      {concept.EmpfohleneVokabulare &&
-        concept.EmpfohleneVokabulare.length > 0 && (
+      {concept.EmpfohleneTerminologien &&
+        concept.EmpfohleneTerminologien.length > 0 && (
           <div>
-            <h3>Empfohlene Vokabulare</h3>
+            <h3>Empfohlene Terminologien</h3>
             <ul>
-              {concept.EmpfohleneVokabulare.map((empfohleneVokabulare, i) => (
-                <li key={i}>{empfohleneVokabulare}</li>
+              {concept.EmpfohleneTerminologien.map((EmpfohleneTerminologien, i) => (
+                <li key={i}>{EmpfohleneTerminologien}</li>
               ))}
             </ul>
           </div>

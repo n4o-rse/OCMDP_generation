@@ -124,19 +124,19 @@ const jsonld = {
       "@container": "@set",
     },
     Datentyp: {
-      "@id": "ocmdp:Datentyp",
+      "@id": "ocmdp:TQKQBM",
       "@container": "@set",
     },
     Verpflichtungsgrad: {
-      "@id": "ocmdp:Verpflichtungsgrad",
+      "@id": "ocmdp:JYGNTK",
       "@container": "@set",
     },
     Wiederholbar: {
-      "@id": "ocmdp:Wiederholbar",
+      "@id": "ocmdp:EO7QK9",
       "@container": "@set",
     },
-    EmpfohleneVokabulare: {
-      "@id": "ocmdp:EmpfohleneVokabulare",
+    EmpfohleneTerminologien: {
+      "@id": "ocmdp:H1RGOM",
       "@container": "@set",
     },
   },
