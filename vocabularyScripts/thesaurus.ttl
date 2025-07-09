@@ -59,7 +59,7 @@
     skos:notation "EO7QK9" ;
     skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Wiederholbar"@de ;
-    ocmdp:Datentyp "DC3SN2" .
+    ocmdp:TQKQBM "DC3SN2" .
 
 <https://www.w3id.org/objectcore/terminology/FFYJTZ> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
@@ -84,7 +84,7 @@
     skos:notation "H1RGOM" ;
     skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Empfohlene Terminologien"@de ;
-    ocmdp:Datentyp "XE70Z8" .
+    ocmdp:TQKQBM "XE70Z8" .
 
 <https://www.w3id.org/objectcore/terminology/H5KD3F> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
@@ -133,7 +133,7 @@
     skos:notation "KL9LCA" ;
     skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Unsicherheit"@de ;
-    ocmdp:Datentyp "DC3SN2" .
+    ocmdp:TQKQBM "DC3SN2" .
 
 <https://www.w3id.org/objectcore/terminology/KN2AVX> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/C3T57V> ;
@@ -149,9 +149,9 @@
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "KP15EJ" ;
     skos:prefLabel "Description"@de ;
-    ocmdp:Datentyp "PI4F4S" ;
-    ocmdp:Verpflichtungsgrad "G338GB" ;
-    ocmdp:Wiederholbar "ja" .
+    ocmdp:EO7QK9 "ja" ;
+    ocmdp:JYGNTK "G338GB" ;
+    ocmdp:TQKQBM "PI4F4S" .
 
 <https://www.w3id.org/objectcore/terminology/KX62YX> a skos:Concept ;
     skos:altLabel "Identifikator"@de ;
@@ -159,9 +159,9 @@
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "KX62YX" ;
     skos:prefLabel "Identifier"@de ;
-    ocmdp:Datentyp "PI4F4S" ;
-    ocmdp:Verpflichtungsgrad "G338GB" ;
-    ocmdp:Wiederholbar "nein" .
+    ocmdp:EO7QK9 "nein" ;
+    ocmdp:JYGNTK "G338GB" ;
+    ocmdp:TQKQBM "PI4F4S" .
 
 <https://www.w3id.org/objectcore/terminology/KXB3YB> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/XNDA95> ;
@@ -218,7 +218,7 @@
     skos:notation "ME5OCY" ;
     skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Terminology Term"@de ;
-    ocmdp:Datentyp "TW6U6T" .
+    ocmdp:TQKQBM "TW6U6T" .
 
 <https://www.w3id.org/objectcore/terminology/O8UZ2A> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/DGSLS7> ;
@@ -298,9 +298,9 @@
     skos:inScheme <https://www.w3id.org/objectcore/terminology> ;
     skos:notation "W0PDK4" ;
     skos:prefLabel "Label"@de ;
-    ocmdp:Datentyp "PI4F4S" ;
-    ocmdp:Verpflichtungsgrad "G338GB" ;
-    ocmdp:Wiederholbar "ja" .
+    ocmdp:EO7QK9 "ja" ;
+    ocmdp:JYGNTK "G338GB" ;
+    ocmdp:TQKQBM "PI4F4S" .
 
 <https://www.w3id.org/objectcore/terminology/XZYN2X> a skos:Concept ;
     skos:broader <https://www.w3id.org/objectcore/terminology/JYGNTK> ;
@@ -464,7 +464,7 @@
     skos:notation "JYGNTK" ;
     skos:note "NFDI4Objects TWG internal"@de ;
     skos:prefLabel "Verpflichtungsgrad"@de ;
-    ocmdp:Datentyp "G338GB",
+    ocmdp:TQKQBM "G338GB",
         "JM0BW3",
         "XZYN2X" .
 
