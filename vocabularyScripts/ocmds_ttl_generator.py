@@ -49,6 +49,7 @@ def row2Triple(i, g, concept, pred, obj, isLang, baseLanguageLabel, thesaurusAdd
     if obj == URIRef:
         if pred in [SKOS.broader, SKOS.narrower, SKOS.related]:
             if i != "top":
+                objectRessources.append(URIRef(thesaurusAddendum + i))
                 g.add ((concept, pred, URIRef(thesaurusAddendum + i)))
                 if pred == SKOS.broader:
                     g.add ((URIRef(thesaurusAddendum + i), SKOS.narrower, concept))
@@ -124,6 +125,9 @@ def df2Skos(df, baseLanguageLabel, baseUri, seperator):
         if row["prefLabel"] and isinstance(row["prefLabel"], str) and row["notation"] and isinstance(row["notation"], str):
             #print(row["prefLabel"], row["notation"])
             concept = URIRef(thesaurusAddendum + row['notation'])
+            #check if concept already in Graph
+            if (concept, RDF.type, SKOS.Concept) in g:
+                ambiguousIdentifier.append(concept)
             g.add ((concept, RDF.type, SKOS.Concept))
             for prop, pred, obj, isLang in propertyTuples+extendedTuples:
                 if prop in df.columns:
@@ -151,6 +155,17 @@ def main(link, baseLanguageLabel, propertyMatchDict, seperator):
     graph = df2Skos(df, baseLanguageLabel, baseUri, seperator)
     graph.serialize(destination='thesaurus.ttl', format='turtle')   
     #graph.serialize(destination='thesaurus.json-ld', format='json-ld')
+    if len(ambiguousIdentifier) > 0:
+        print("Ambigous Indentifier: " + str(ambiguousIdentifier))
+    missingRessources = []
+    for ressource in objectRessources:
+        # check if ressource is a skos concept
+        if (ressource, RDF.type, SKOS.Concept) not in graph:
+            missingRessources.append(ressource)
+    if len(missingRessources) > 0:
+        print("Missing Ressources: " + str(missingRessources))
+    if len(ambiguousIdentifier+missingRessources) > 0:
+        raise ValueError("Ambigous Indentifier or Missing Ressources")
 
 link = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRX_ecwh-LlKqM2FPR_ELs5c6ZuRKa4nc5pCl4-RakoCVl5nxia8GIHoOYZIbbeuvB0MH8eY26WNsb7/pub?gid=0&single=true&output=csv"
 baseLanguageLabel = "de"
@@ -159,5 +174,7 @@ baseUri = "https://www.w3id.org/objectcore/terminology" # "https://n4o-rse.githu
 # dictionary to map divergent column names in the csv to the SKOS properties
 propertyMatchDict = {"identifier":"notation","description":"definition","parent":"broader", "note (source)": "source"}
 seperator = "|"
+ambiguousIdentifier = []
+objectRessources = []
 
 main(link, baseLanguageLabel, propertyMatchDict, seperator)
